@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="details">
+        <div class="det1">
+            <div class="sun"><img id="sunrise" src="sunrise.png" alt="sun" height="80" width="80">
+                <p class="sunrisetime"></p>
+            </div> 
+        <div class="sun">    
+            <img id="sunset" src="sunset.png" alt="sun" height="80" width="80">
+            <p class="sunsettime"></p>
+        </div> 
+        <div class="sun">
+            <img id="wind" src="wind.png" alt="wind" height="40" width="40" >
+            <p class="wspeed"></p>
+        </div> 
+        </div>
+        <div class="det1">
+          
+            <span id="minmax">99/99<sup>o</sup></span>
+            <p id="feels"></p>
+            
+           
+        </div>
+        </div>
+     <main>
+        <form action="">
+            <input types="text" autocomplete="off" id="valueSearch">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+
+        <section class="result">
+            <figure class="name" id="city">
+                <figcaption>London</figcaption>
+                <img src="https://flagsapi.com/GB/shiny/32.png" alt="flag">
+                 
+            </figure>
+            <figure class="temperature" id="temperature">
+                <img class="temp" src="rainicon.png" id="tempicon" >
+                <figcaption>
+                    <span>31</span>
+                    <sup>o</sup>
+                    <span>C</span>
+                    
+                    
+                </figcaption>
+            </figure>
+             <p class="description" >
+                Overcast Clouds
+             </p>
+
+             <ul>
+                <li>
+                    <span><i class="fa-solid fa-cloud"></i></span>
+
+                    <span id="clouds">Clouds</span>
+                </li>
+                <li><span><i class="fa-solid fa-droplet"></i></span>
+                    <span id="humidity">Humidity</span>
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-gauge"></i></span>
+                    <span id="pressure">Pressure</span>
+                </li>
+             </ul>
+        </section>
+     </main>
+     <div class="details2">
+            
+     </div>
+    </div>
+ <script src="index.js"></script>   
+</body>
+</html>

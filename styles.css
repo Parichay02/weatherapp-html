@@ -1,0 +1,186 @@
+body{
+    margin:0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url(wallpaperflare.com_wallpaper.jpg);
+    background-size:contain;
+    
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 300px;
+    height: max-content;
+    min-height: 300px;
+    background-color: white;
+
+    border-radius: 50px;
+    box-shadow: 0 30px 50px rgb(117, 10, 117);
+    padding: 30px;
+    box-sizing: border-box;
+    
+}
+main form{
+border-radius: 30px;
+border:4px rgba(59, 122, 122, 0.964);
+background-color: rgba(192, 175, 178, 0.51);
+justify-content:space-between;
+display: flex;
+
+}
+
+main form button{
+    border: rgb(83, 83, 154)
+    background-color: white;
+    outline: none;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+main form input,
+main form button{
+    border: 2px black;
+    background-color:transparent ;
+    outline: none;
+    padding-left: 10px;}
+
+    .input {
+        border: 2px rgb(125, 0, 241);
+        background-color: rgba(12, 103, 188, 0.445);
+        
+    
+    }
+
+
+#tempicon{
+    background-image: conic-gradient(rgba(72, 7, 7, 0.284) , rgba(63, 63, 7, 0.01) , rgba(30, 65, 30, 0.234) );
+   border-radius: 50%;
+   
+    
+}
+
+
+main .result{
+    padding-top: 20px;
+    text-align: center;
+}
+
+main .name  {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    font-size: large;
+    align-items: center;
+    gap: 10px;
+} 
+main .temperature figcaption span{
+    gap: 1px;
+}
+main .temperature img{
+    width: 150px;
+    filter: drop-shadow(
+        0 10 50 rgba(53, 47, 47, 0.575)
+    );
+}
+
+main .temperature figcaption{
+    font-size: 3em;
+}
+
+main ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+
+main li{
+    background-color: #f78a55;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-image: linear-gradient(
+        to bottom,
+        transparent 65%,
+        black 35%
+    );
+}
+main li i
+{
+    font-size:2em;
+    display: block;
+    margin-bottom: 20px;
+}
+
+main li:nth-child(2){
+    background-color: rgba(128, 129, 127, 0.997);
+}
+
+main li:nth-child(3){
+    background-color: rgb(94, 4, 94);
+}
+
+.details{
+    width: 300px;
+    height: max-content;
+    min-height: 500px;
+
+    border-radius: 50px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 20px;
+    
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.det1{
+   padding: 25px; 
+   background-color: rgba(255, 255, 255, 0.579);
+   border-radius: 20px;
+   display:flex;
+   flex-direction: column;
+   gap: 15px;
+   
+}
+
+#wind{
+    
+    padding: 20px;
+
+}
+
+.sun{
+    gap: 10px;
+    align-items: center;
+    display: flex;
+}
+
+
+.details2{
+    width: 300px;
+    height: max-content;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, 0.577);
+    border-radius: 50px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 20px;
+}
+
+#feels{
+    font-size: large;
+    font-weight: bold;
+}
